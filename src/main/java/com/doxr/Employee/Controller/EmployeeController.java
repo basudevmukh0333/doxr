@@ -15,7 +15,7 @@ public class EmployeeController {
                            @RequestParam String lastName) {
         System.out.println("Inside Controller");
 
-        return firstName + " " + lastName;
+        return "Entered Name is :: "+ " "+ firstName + " " + lastName;
     }
 
 }
